@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Bienestar integral: Farmacia Fácil</title>
+
+  <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset básico para email */
+    img{border:0;outline:0;text-decoration:none;-ms-interpolation-mode:bicubic;display:block;}
+    table{border-collapse:collapse;}
+    /* Lados transparentes; el blanco vive sólo en el container */
+    body{margin:0;padding:0;width:100%!important;background:transparent;font-family:Poppins, Arial, sans-serif;}
+
+    /* Container 600px (idéntico a header y footer) */
+    .container{width:600px;max-width:600px;background:#ffffff;}
+    .px{padding-left:24px;padding-right:24px;}
+    .center{text-align:center;}
+
+    /* Envoltura antidesbordes (SIN guiones) */
+    .wrap-safe{
+      overflow-wrap:anywhere;word-wrap:break-word;word-break:normal;
+      hyphens:none;-webkit-hyphens:none;-ms-hyphens:none;
+    }
+    a{word-break:break-word;}
+
+    /* Botones pill */
+    .btn{display:inline-block;border-radius:999px;background:#1F61F7;color:#fff;text-decoration:none;
+         font:700 14px Poppins, Arial, sans-serif;padding:12px 18px;line-height:1;white-space:normal;max-width:100%;}
+    .btn-primary{background:#25A73A;}
+
+    /* Imágenes nunca exceden 600 */
+    .img-full{width:100%;max-width:600px;height:auto;}
+    .img-fluid{width:100%;height:auto;}
+
+    /* Desktop: CTA en una línea cuando hay espacio */
+    @media screen and (min-width:601px){
+      .btn-nowrap{white-space:nowrap!important;}
+    }
+
+    /* Móvil */
+    @media screen and (max-width:600px){
+      .container{width:100%!important;max-width:100%!important;}
+      .stack{display:block!important;width:100%!important;}
+      .px{padding-left:16px!important;padding-right:16px!important;}
+      .btn{font-size:14px!important;padding:12px 16px!important;border-radius:999px!important;}
+      .h1{font-size:22px!important;line-height:1.35!important;}
+      .h2{font-size:18px!important;line-height:1.35!important;}
+      .bodytext{font-size:15px!important;line-height:1.7!important;}
+    }
+
+    /* Hover sólo desktop */
+    @media (hover:hover){ .btn:hover{filter:brightness(1.03);} }
+  </style>
+
+  <!-- Outlook: quitar espacios laterales y forzar fallback de fuente -->
+  <!--[if mso]>
+    <style>
+      table, td { mso-table-lspace:0pt !important; mso-table-rspace:0pt !important; }
+      body, table, td, p, a, span { font-family: Arial, sans-serif !important; }
+      p { mso-line-height-rule: exactly; }
+    </style>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- Preheader (solo inbox) -->
+  <div style="display:none;max-height:0;overflow:hidden;font-size:1px;line-height:1px;color:#ffffff;">
+    Ahorra hasta 30% en más de 200 farmacias y obtén reembolso automático con Farmacia Fácil.
+  </div>
+
+  <center role="article" aria-roledescription="email" lang="es">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center">
+
+          <!-- ========== CONTAINER 600 ========== -->
+          <table role="presentation" width="600" align="center" class="container" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#ffffff;">
+
+            <!-- HEADER -->
+            <tr>
+              <td style="padding:0;line-height:0;font-size:0;">
+                <a href="https://ibb.co/tpjpYj1C" target="_blank" style="display:block;">
+                  <img src="https://i.ibb.co/1GyGRy42/header.png" width="600" alt="BICE VIDA" class="img-full" style="display:block;border:0;">
+                </a>
+              </td>
+            </tr>
+
+            <!-- ===== BODY ===== -->
+            <tr>
+              <td>
+
+                <!-- HERO -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" style="padding:0;">
+                      <a href="https://ibb.co/JF2bZwTw" target="_blank" style="display:block;">
+                        <img src="https://i.ibb.co/M5pjdxHx/compra-farmacia.jpg" width="600" alt="Bienestar Farmacia Fácil" class="img-full" style="border-radius:0;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- TITULAR + Intro -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" class="px" style="padding:16px 24px 8px;">
+                      <h1 class="h1 wrap-safe" style="margin:0;font:700 24px/1.3 Poppins,Arial,sans-serif;color:#0B1F3A;">
+                        Bienestar Integral: Descubre Farmacia Fácil
+                      </h1>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="px" style="padding:0 24px 16px;">
+                      <p class="bodytext wrap-safe" style="margin:0;font:400 16px/1.7 Poppins,Arial,sans-serif;color:#353b41;">
+                        Recuerda para tu próxima compra de medicamentos que cuentas con <strong>Farmacia Fácil</strong>: Plataforma de Farmacias.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- BENEFICIOS (4 thumbnails) -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" class="px" style="padding:0 24px 10px;">
+                      <p class="wrap-safe" style="margin:0;font:700 17px/1.4 Poppins,Arial,sans-serif;color:#0B1F3A;">Beneficios</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px" style="padding:0 24px 8px;">
+                      <table role="presentation" width="100%">
+                        <tr>
+                          <td align="center" style="padding:8px;">
+                            <img src="https://raw.githubusercontent.com/fprdiseno-jpg/bicevida/main/hasta-30.jpg" width="252" alt="Hasta un 30% de ahorro promedio" class="img-fluid" style="border-radius:12px;">
+                          </td>
+                          <td align="center" style="padding:8px;">
+                            <img src="https://raw.githubusercontent.com/fprdiseno-jpg/bicevida/main/200.jpg" width="252" alt="+200 farmacias a nivel nacional" class="img-fluid" style="border-radius:12px;">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding:8px;">
+                            <img src="https://raw.githubusercontent.com/fprdiseno-jpg/bicevida/main/reembolso.jpg" width="252" alt="Reembolso automático con receta" class="img-fluid" style="border-radius:12px;">
+                          </td>
+                          <td align="center" style="padding:8px;">
+                            <img src="https://raw.githubusercontent.com/fprdiseno-jpg/bicevida/main/acceso.jpg" width="252" alt="Acceso online y presencial" class="img-fluid" style="border-radius:12px;">
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- CTA PRINCIPAL -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" class="px" style="padding:8px 24px 8px;">
+                      <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="https://yapp.cl/farmacias/mapa"
+                          style="height:48px;v-text-anchor:middle;width:360px" arcsize="50%" strokecolor="#25A73A" fillcolor="#25A73A">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">
+                            Revisa la farmacia más cercana
+                          </center>
+                        </v:roundrect>
+                      <![endif]-->
+                      <!--[if !mso]><!-- -->
+                      <a href="https://yapp.cl/farmacias/mapa" class="btn btn-primary btn-nowrap" target="_blank"
+                         style="display:inline-block;padding:14px 28px;border-radius:999px;background:#25A73A;color:#fff;font:700 16px Poppins,Arial,sans-serif;text-decoration:none;">
+                        Revisa la farmacia más cercana
+                      </a>
+                      <!--<![endif]-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="px" style="padding:0 24px 12px;">
+                      <p class="bodytext wrap-safe" style="margin:10px 0 0 0;font:400 13px/1.6 Poppins,Arial,sans-serif;color:#6b7280;">
+                        Principales farmacias: Liga Chilena contra la epilepsia, Redfarma y Ecofarma.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- CTA SECUNDARIO: Tutorial -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" class="px" style="padding:0 24px 16px;">
+                      <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="https://bicevida-marketing.s3.amazonaws.com/public/YAPP/mailings/corredores/tutorial_reembolso.mp4"
+                          style="height:44px;v-text-anchor:middle;width:360px" arcsize="50%" strokecolor="#1F61F7" fillcolor="#1F61F7">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;">
+                            ▶ Ver tutorial de reembolsos
+                          </center>
+                        </v:roundrect>
+                      <![endif]-->
+                      <!--[if !mso]><!-- -->
+                      <a href="https://bicevida-marketing.s3.amazonaws.com/public/YAPP/mailings/corredores/tutorial_reembolso.mp4"
+                         class="btn btn-nowrap" target="_blank"
+                         style="display:inline-block;padding:12px 18px;border-radius:999px;background:#1F61F7;color:#ffffff;font:700 14px Poppins,Arial,sans-serif;text-decoration:none;">
+                        ▶ Ver tutorial de reembolsos
+                      </a>
+                      <!--<![endif]-->
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Banner descriptivo -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td align="center" style="padding:0 0 24px 0;">
+                      <a href="https://ibb.co/4n8bLMQz" target="_blank" style="display:block;">
+                        <img src="https://i.ibb.co/Rk3XKP5f/Farmacia-Facil.png" width="600" alt="Descripción de Farmacia Fácil" class="img-full" style="border-radius:12px;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- TARJETA INFORMATIVA -->
+                <table role="presentation" width="100%">
+                  <tr>
+                    <td class="px" style="padding:0 24px 24px;">
+                      <table role="presentation" width="100%" style="background:#F9FAFB;border-radius:16px;table-layout:fixed;">
+                        <tr>
+                          <!-- Columna texto -->
+                          <td class="stack" width="55%" valign="top" style="padding:20px;max-width:90%;overflow:hidden;">
+                            <h2 class="h2 wrap-safe" style="margin:0 0 8px;font:700 18px/1.3 Poppins,Arial,sans-serif;color:#153BAA;">Farmacia Fácil</h2>
+                            <p class="bodytext wrap-safe" style="margin:0 0 12px;font:400 14px/1.7 Poppins,Arial,sans-serif;color:#153042;">
+                              Cotiza, compara, compra y reembolsa en un solo lugar con más de 200 farmacias a nivel nacional.
+                            </p>
+
+                            <!-- Botón secundario (bulletproof) -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 10px 0;max-width:100%;">
+                              <tr>
+                                <td bgcolor="#1F61F7" style="border-radius:999px;">
+                                  <!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="https://www.bicevida.cl/seguro-colectivo/beneficios-bice-vida/farmacia-facil"
+                                      style="height:44px;v-text-anchor:middle;width:320px" arcsize="50%" strokecolor="#1F61F7" fillcolor="#1F61F7">
+                                      <w:anchorlock/>
+                                      <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;">
+                                        Cotiza aquí tus medicamentos →
+                                      </center>
+                                    </v:roundrect>
+                                  <![endif]-->
+                                  <!--[if !mso]><!-- -->
+                                  <a href="https://www.bicevida.cl/seguro-colectivo/beneficios-bice-vida/farmacia-facil"
+                                     style="display:inline-block;padding:12px 18px;font:700 14px Poppins,Arial,sans-serif;color:#ffffff;text-decoration:none;border-radius:999px;background:#1F61F7;white-space:normal;word-break:break-word;max-width:100%;">
+                                    Cotiza aquí tus medicamentos →
+                                  </a>
+                                  <!--<![endif]-->
+                                </td>
+                              </tr>
+                            </table>
+
+                            <p class="bodytext wrap-safe" style="margin:10px 0 0 0;font:400 13px/1.6 Poppins,Arial,sans-serif;color:#4b5563;">
+                              ¿Primera vez usando Farmacia Fácil?
+                              <a href="https://yapp.cl/farmacias/mapa" style="color:#153BAA;text-decoration:underline;word-break:break-word;">haz clic aquí</a>
+                              y aprende a gestionar tus medicamentos.
+                            </p>
+                            <p class="wrap-safe" style="margin:8px 0 0 0;font:400 11px/1.6 Poppins,Arial,sans-serif;color:#6b7280;">
+                              Beneficio válido para titular y cargas vigentes de póliza colectiva de salud.
+                            </p>
+                          </td>
+
+                          <!-- Columna imagen -->
+                          <td class="stack center" width="45%" valign="middle" style="padding:20px;">
+                            <a href="https://imgbb.com/" target="_blank">
+                              <img src="https://i.ibb.co/DP4tdyV7/brazos-abiertos-alta.png" width="240" height="200" alt="Ilustración" class="img-fluid" style="border-radius:8px;">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- SUSCRIPCIÓN -->
+                <table role="presentation" width="99%">
+                  <tr>
+                    <td class="px" style="padding:0 24px 8px;">
+                      <table role="presentation" width="99%" style="background:#ffffff;border-radius:12px;table-layout:fixed;">
+                        <tr>
+                          <td class="stack" width="65%" style="padding:16px 20px;">
+                            <p class="wrap-safe" style="margin:0 0 6px;font:600 14px/1.4 Poppins,Arial,sans-serif;color:#0B1F3A;">
+                              Inscríbete y recibe ofertas que el mundo BICE tiene para ti.
+                            </p>
+                            <p class="bodytext wrap-safe" style="margin:0;font:400 13px/1.6 Poppins,Arial,sans-serif;color:#4b5563;">
+                              Novedades, beneficios y contenidos para tu bienestar.
+                            </p>
+                          </td>
+                          <td class="stack center" width="35%" style="padding:16px 20px;">
+                            <a href="https://cloud.bicevida.cl/suscripcion-blog-bicevida" class="btn" style="background:#F0F4FA#25A73A;color:#ffffff;" target="_blank">
+                              Saber más →
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table> 
+
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td align="center" style="background:#153BAA;padding:20px 24px;">
+                <p class="wrap-safe" style="margin:0 0 8px 0;font:700 14px/1 Poppins,Arial,sans-serif;color:#ffffff;">
+                  Call Center <a href="tel:800202022" style="color:#ffffff;text-decoration:none;">800 20 20 22</a>
+                </p>
+
+                <!-- Redes sociales (centradas en todos los clientes) -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+                  <tr>
+                    <td align="center" style="padding:0 8px;">
+                      <a href="https://x.com/bice_vida" target="_blank">
+                        <img src="https://bice.modyocdn.com/uploads/8dd1c632-3d1d-4e5f-b593-6798056d656e/original/X.svg" width="24" height="24" alt="X" style="display:block;">
+                      </a>
+                    </td>
+                    <td align="center" style="padding:0 8px;">
+                      <a href="https://www.facebook.com/bicevida" target="_blank">
+                        <img src="https://bice.modyocdn.com/uploads/54905280-4f29-442b-b3e6-d077f034e312/original/Facebook.svg" width="24" height="24" alt="Facebook" style="display:block;">
+                      </a>
+                    </td>
+                    <td align="center" style="padding:0 8px;">
+                      <a href="https://www.instagram.com/bicevida/?igshid=1hvwy2nj0rlzk" target="_blank">
+                        <img src="https://bice.modyocdn.com/uploads/ff211bf2-f7e0-4a2c-ad87-1a74d7f39e7f/original/Instragram.svg" width="24" height="24" alt="Instagram" style="display:block;">
+                      </a>
+                    </td>
+                    <td align="center" style="padding:0 8px;">
+                      <a href="https://www.youtube.com/channel/UCNzbIUVP0ckWGuJ3yFgzsYw" target="_blank">
+                        <img src="https://bice.modyocdn.com/uploads/b8cdbc81-4b50-4f89-aef0-0edc463a421d/original/youtube.svg" width="24" height="24" alt="YouTube" style="display:block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <p class="wrap-safe" style="margin:10px 0 0 0;font:600 12px/1.4 Poppins,Arial,sans-serif;color:#ffffff;">
+                  <a href="https://bicevida.cl" style="color:#ffffff;text-decoration:none;">bicevida.cl</a>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- ========== /CONTAINER 600 ========== -->
+
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>
